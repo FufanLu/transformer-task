@@ -1,0 +1,19 @@
+2026-10-06 16:25:32,978 INFO    MainThread:7406 [wandb_setup.py:_flush():81] Current SDK version is 0.30.0
+2026-10-06 16:25:32,978 INFO    MainThread:7406 [wandb_setup.py:_flush():81] Configure stats pid to 7406
+2026-10-06 16:25:32,978 INFO    MainThread:7406 [wandb_setup.py:_flush():81] Loading settings from environment variables
+2026-10-06 16:25:32,978 INFO    MainThread:7406 [wandb_init.py:setup_run_log_directory():739] Logging user logs to /Users/induce/Downloads/NEU/INFO7375/A2/wandb/offline-run-20261006_162532-ztt0j4ca/logs/debug.log
+2026-10-06 16:25:32,978 INFO    MainThread:7406 [wandb_init.py:setup_run_log_directory():740] Logging internal logs to /Users/induce/Downloads/NEU/INFO7375/A2/wandb/offline-run-20261006_162532-ztt0j4ca/logs/debug-internal.log
+2026-10-06 16:25:32,979 INFO    MainThread:7406 [wandb_init.py:init():783] calling init triggers
+2026-10-06 16:25:32,979 INFO    MainThread:7406 [wandb_init.py:init():788] wandb.init called with sweep_config: {}
+config: {'output_dir': 'outputs/local/A_d256L8_lr5e-4', 'tokenizer_encoding': 'gpt2', 'model_config': {'n_embd': 256, 'n_head': 8, 'n_positions': 128, 'n_layer': 8}, 'device': 'auto', 'batch_size': 32, 'seq_len': 128, 'num_warmup_steps': 10, 'num_training_steps': 2061, 'grad_accumulation_steps': 1, 'min_lr': 0.0001, 'max_lr': 0.0005, '_wandb': {}}
+2026-10-06 16:25:32,979 INFO    MainThread:7406 [wandb_init.py:init():831] starting backend
+2026-10-06 16:25:33,191 INFO    MainThread:7406 [wandb_init.py:init():846] sending inform_init request
+2026-10-06 16:25:33,236 INFO    MainThread:7406 [wandb_init.py:init():851] backend started and connected
+2026-10-06 16:25:33,238 INFO    MainThread:7406 [wandb_init.py:init():921] updated telemetry
+2026-10-06 16:25:33,264 INFO    MainThread:7406 [wandb_init.py:init():944] communicating run to backend with 90.0 second timeout
+2026-10-06 16:25:33,268 INFO    MainThread:7406 [wandb_init.py:init():981] starting run threads in backend
+2026-10-06 16:25:33,329 INFO    MainThread:7406 [wandb_run.py:_console_start():2531] atexit reg
+2026-10-06 16:25:33,330 INFO    MainThread:7406 [wandb_run.py:_redirect():2381] redirect: wrap_raw
+2026-10-06 16:25:33,330 INFO    MainThread:7406 [wandb_run.py:_redirect():2450] Wrapping output streams.
+2026-10-06 16:25:33,330 INFO    MainThread:7406 [wandb_run.py:_redirect():2473] Redirects installed.
+2026-10-06 16:25:33,331 INFO    MainThread:7406 [wandb_init.py:init():1019] run started, returning control to user process

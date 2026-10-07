@@ -1,0 +1,16 @@
+# large / regenerable
+data/tokens.npz
+submission.zip
+submission/
+cluster_results/wandb/
+outputs/GPT-tiny*/model.pt
+ppl_eval_examples.jsonl
+results.json
+# junk
+__MACOSX/
+.DS_Store
+__pycache__/
+*.egg-info/
+report/*.aux
+report/*.log
+report/*.out

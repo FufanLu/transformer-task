@@ -1,0 +1,27 @@
+########################################
+output_dir: outputs/local/A_d256L8_lr5e-4
+tokenizer_encoding: gpt2
+model_config:
+  n_embd: 256
+  n_head: 8
+  n_positions: 128
+  n_layer: 8
+device: auto
+batch_size: 32
+seq_len: 128
+num_warmup_steps: 10
+num_training_steps: 2061
+grad_accumulation_steps: 1
+min_lr: 0.0001
+max_lr: 0.0005
+########################################
+wandb: Tracking run with wandb version 0.30.0
+wandb: W&B syncing is set to `offline` in this directory. Run `wandb online` or set WANDB_MODE=online to enable cloud syncing.
+wandb: Run data is saved locally in /Users/induce/Downloads/NEU/INFO7375/A2/wandb/offline-run-20261006_162532-ztt0j4ca
+wandb: View this run in the terminal with `wandb leet`
+model parameters = 19M
+Your model is 76.9MB. This should be within the 100MB limit of Gradescope.
+train dataset tokens = 520M
+train FLOPs = 1.00e+15
+  0%|          | 0/2061 [00:00<?, ?it/s]  0%|          | 0/2061 [00:02<?, ?it/s, train loss=10.87, TFLOPS=0.2]  0%|          | 0/2061 [00:02<?, ?it/s, train loss=10.86, TFLOPS=1.1]  0%|          | 0/2061 [00:03<?, ?it/s, train loss=10.82, TFLOPS=1.3]  0%|          | 0/2061 [00:03<?, ?it/s, train loss=10.76, TFLOPS=1.3]  0%|          | 0/2061 [00:03<?, ?it/s, train loss=10.69, TFLOPS=1.2]  0%|          | 0/2061 [00:04<?, ?it/s, train loss=10.64, TFLOPS=1.2]  0%|          | 0/2061 [00:04<?, ?it/s, train loss=10.59, TFLOPS=1.3]  0%|          | 0/2061 [00:05<?, ?it/s, train loss=10.55, TFLOPS=1.3]  0%|          | 0/2061 [00:05<?, ?it/s, train loss=10.51, TFLOPS=1.3]  0%|          | 0/2061 [00:05<?, ?it/s, train loss=10.48, TFLOPS=1.3]  0%|          | 0/2061 [00:06<?, ?it/s, train loss=10.43, TFLOPS=1.3]  0%|          | 0/2061 [00:06<?, ?it/s, train loss=10.39, TFLOPS=1.3]  0%|          | 0/2061 [00:06<?, ?it/s, train loss=10.33, TFLOPS=1.3]  0%|          | 0/2061 [00:07<?, ?it/s, train loss=10.29, TFLOPS=1.3]  0%|          | 0/2061 [00:07<?, ?it/s, train loss=10.24, TFLOPS=1.3]  0%|          | 0/2061 [00:08<?, ?it/s, train loss=10.19, TFLOPS=1.3]  0%|          | 0/2061 [00:08<?, ?it/s, train loss=10.13, TFLOPS=1.2]  0%|          | 0/2061 [00:08<?, ?it/s, train loss=10.08, TFLOPS=1.3]  0%|          | 0/2061 [00:09<?, ?it/s, train loss=10.04, TFLOPS=1.3]  0%|          | 0/2061 [00:09<?, ?it/s, train loss=10.00, TFLOPS=1.3]  0%|          | 0/2061 [00:09<?, ?it/s, train loss=9.91, TFLOPS=1.3]   0%|          | 0/2061 [00:10<?, ?it/s, train loss=9.81, TFLOPS=1.3]  1%|          | 22/2061 [00:10<15:56,  2.13it/s, train loss=9.81, TFLOPS=1.3]  1%|          | 22/2061 [00:10<15:56,  2.13it/s, train loss=9.73, TFLOPS=1.3]  1%|          | 22/2061 [00:11<15:56,  2.13it/s, train loss=9.64, TFLOPS=1.3]  1%|          | 22/2061 [00:11<15:56,  2.13it/s, train loss=9.56, TFLOPS=1.3]  1%|          | 22/2061 [00:11<15:56,  2.13it/s, train loss=9.47, TFLOPS=1.3]  1%|          | 22/2061 [00:12<15:56,  2.13it/s, train loss=9.39, TFLOPS=1.3]  1%|          | 22/2061 [00:12<15:56,  2.13it/s, train loss=9.30, TFLOPS=1.3]  1%|          | 22/2061 [00:12<15:56,  2.13it/s, train loss=9.22, TFLOPS=1.2]  1%|          | 22/2061 [00:13<15:56,  2.13it/s, train loss=9.12, TFLOPS=1.3]  1%|          | 22/2061 [00:13<15:56,  2.13it/s, train loss=9.04, TFLOPS=1.2]  1%|          | 22/2061 [00:14<15:56,  2.13it/s, train loss=8.97, TFLOPS=1.3]  1%|          | 22/2061 [00:14<15:56,  2.13it/s, train loss=8.90, TFLOPS=1.3]  1%|          | 22/2061 [00:14<15:56,  2.13it/s, train loss=8.82, TFLOPS=1.3]  1%|          | 22/2061 [00:15<15:56,  2.13it/s, train loss=8.76, TFLOPS=1.3]  1%|          | 22/2061 [00:15<15:56,  2.13it/s, train loss=8.70, TFLOPS=1.3]  1%|          | 22/2061 [00:16<15:56,  2.13it/s, train loss=8.66, TFLOPS=1.3]  1%|          | 22/2061 [00:16<15:56,  2.13it/s, train loss=8.60, TFLOPS=1.3]  1%|          | 22/2061 [00:16<15:56,  2.13it/s, train loss=8.54, TFLOPS=1.3]  1%|          | 22/2061 [00:17<15:56,  2.13it/s, train loss=8.49, TFLOPS=1.3]  1%|          | 22/2061 [00:17<15:56,  2.13it/s, train loss=8.45, TFLOPS=1.3]  1%|          | 22/2061 [00:17<15:56,  2.13it/s, train loss=8.41, TFLOPS=1.3]  1%|          | 22/2061 [00:18<15:56,  2.13it/s, train loss=8.36, TFLOPS=1.3]  1%|          | 22/2061 [00:18<15:56,  2.13it/s, train loss=8.33, TFLOPS=1.3]  1%|          | 22/2061 [00:19<15:56,  2.13it/s, train loss=8.30, TFLOPS=1.2]  1%|          | 22/2061 [00:19<15:56,  2.13it/s, train loss=8.27, TFLOPS=1.3]  1%|          | 22/2061 [00:19<15:56,  2.13it/s, train loss=8.24, TFLOPS=1.2]  1%|          | 22/2061 [00:20<15:56,  2.13it/s, train loss=8.22, TFLOPS=1.2]  1%|          | 22/2061 [00:20<15:56,  2.13it/s, train loss=8.19, TFLOPS=1.3]  2%|▏         | 49/2061 [00:20<13:50,  2.42it/s, train loss=8.19, TFLOPS=1.3]  2%|▏         | 49/2061 [00:20<13:50,  2.42it/s, train loss=8.17, TFLOPS=1.3]  2%|▏         | 49/2061 [00:21<13:50,  2.42it/s, train loss=8.16, TFLOPS=1.3]  2%|▏         | 49/2061 [00:21<13:50,  2.42it/s, train loss=8.15, TFLOPS=1.3]  2%|▏         | 49/2061 [00:22<13:50,  2.42it/s, train loss=8.13, TFLOPS=1.3]/opt/anaconda3/envs/llms-hw2/lib/python3.11/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 1 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

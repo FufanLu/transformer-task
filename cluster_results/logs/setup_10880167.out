@@ -1,0 +1,3 @@
+gpt2 vocab 50257
+torch 2.5.1+cu121 cuda 12.1
+setup done
